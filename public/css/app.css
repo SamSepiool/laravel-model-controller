@@ -3,3 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.container ul li {
+  width: 20%;
+  text-align: center;
+  margin: 1.25rem 0;
+}

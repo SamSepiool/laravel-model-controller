@@ -1,0 +1,23 @@
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+
+        li {
+            width: 20%;
+            text-align: center;
+            margin: 1.25rem 0;
+        }
+    }
+
+}
+
